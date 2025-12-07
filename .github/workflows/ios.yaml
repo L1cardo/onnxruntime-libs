@@ -47,7 +47,7 @@ jobs:
         if: steps.cache-build-result.outputs.cache-hit != 'true'
         shell: bash
         run: |
-          # brew install cmake
+          # brew install cmake@3
           cmake --version
           brew install tree
           tree --version
@@ -283,7 +283,7 @@ jobs:
         if: steps.cache-build-result.outputs.cache-hit != 'true'
         shell: bash
         run: |
-          # brew install cmake
+          # brew install cmake@3
           cmake --version
           brew install tree
           tree --version
@@ -511,7 +511,7 @@ jobs:
         if: steps.cache-build-result.outputs.cache-hit != 'true'
         shell: bash
         run: |
-          # brew install cmake
+          # brew install cmake@3
           cmake --version
           brew install tree
           tree --version
